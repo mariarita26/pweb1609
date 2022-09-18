@@ -10,6 +10,7 @@ export class AppComponent {
   titulo = 'Social IFPB';
   usuario: Usuario;
   usuarios: Array<Usuario>;
+  aluno: string = "Maria Rita Lira Vieira de Melo";
 
   constructor() {
     this.usuario = new Usuario();
